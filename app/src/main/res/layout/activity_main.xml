@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="700px"
+            android:layout_gravity="center"
+            android:src="@drawable/truthlogo"
+            android:scaleType="centerCrop"
+            android:layout_height="700px">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:text="PRODUCT DEMO"
+                android:id="@+id/DemoBtn"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="The Prototype : Making Machine Learning.."
+                android:gravity="center"
+                android:textSize="18sp"
+                style="@style/Base.CardView"
+                android:textStyle="bold"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:text="START TRACKING"
+                android:id="@+id/PlayBtn"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:text="SHOW SCREENSHOT"
+                android:id="@+id/show_screenshot_btn"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Our Real Machine Learning Algorithm : That works offline! Which Extract Text!"
+                android:gravity="center"
+                android:textSize="18sp"
+                style="@style/Base.CardView"
+                android:textStyle="bold"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/textRecoBTN"
+                android:text="SCAN THE SCREENSHOT : ML ON TEXT RECOGNITION"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Extracted Text Appear Here!"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/showExtractText"
+                style="@style/Base.CardView"
+                android:textStyle="bold"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="ML : That Analyse the KEYWORDS (NOT DONE, NEED A LOT OF SUPPORT!)"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
